@@ -1,0 +1,82 @@
+
+table
+{
+    width: 99%;
+    border-collapse: collapse;
+    margin: 10px;
+}
+tr th, tr td
+{
+    text-align:center;
+}
+body
+{
+    background-color: #000000; 
+    color: white;
+}
+.bidaman-lists > div
+{
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+}
+.bidaman-lists > .the-good-guys
+{
+    border:3px dashed yellow;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    float: left;
+}
+.bidaman-lists > .the-good-guys > span
+{
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bidaman-lists > .the-motherfuckers
+{
+    text-align: left;
+    background-color: red;
+    padding: 10px;
+    float: right;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.bidaman-lists > .the-motherfuckers > span
+{
+    display: block;
+    color:  black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left !important;
+
+}
+.bidaman-tables > table tr th, .bidaman-tables > table tr td
+{
+    border:1px solid yellow;
+    padding: 5px;
+    margin-top: 300px;
+    background-color: green;
+}
+.traitors-table
+{
+    margin-top: 30px;
+}
+
+.traitors-table > table tr th, .traitors-table > table tr td
+{
+    background-color: red;
+    border: dotted yellow 5px;
+
+}
+.images-container > div
+{
+    display: inline-block;
+}
+.images-container > div > a > img
+{
+    width: 500px;
+    height: 400px;
+}
